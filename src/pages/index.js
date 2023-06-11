@@ -14,6 +14,7 @@ const Home = () => {
                     <p>UX designer & web developer based in Manchester.</p>
                     <Link to="/projects" className={styles.btn}>My Portfolio Projects</Link>
                 </div>
+                <img src="/images/banner.png" alt="site banner" style={{ maxWidth: '100%' }}/>
             </header>
         </Layout>
     );
